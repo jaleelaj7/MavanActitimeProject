@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Before Test]]>
+    </line>
+    <line>
+      <![CDATA[Before class ]]>
+    </line>
+    <line>
+      <![CDATA[Main Test Script 1]]>
+    </line>
+    <line>
+      <![CDATA[After class]]>
+    </line>
+    <line>
+      <![CDATA[Before class ]]>
+    </line>
+    <line>
+      <![CDATA[Main Test Script 2]]>
+    </line>
+    <line>
+      <![CDATA[After class]]>
+    </line>
+    <line>
+      <![CDATA[After Test]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-25T18:37:01 IST" name="Suite" finished-at="2023-05-25T18:37:01 IST" duration-ms="284">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T18:37:01 IST" name="Test" finished-at="2023-05-25T18:37:01 IST" duration-ms="284">
+      <class name="Annotation.testscript">
+        <test-method is-config="true" signature="virat()[pri:0, instance:Annotation.testscript@27ce24aa]" started-at="2023-05-25T18:37:01 IST" name="virat" finished-at="2023-05-25T18:37:01 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- virat -->
+        <test-method is-config="true" signature="cristano()[pri:0, instance:Annotation.testscript@27ce24aa]" started-at="2023-05-25T18:37:01 IST" name="cristano" finished-at="2023-05-25T18:37:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before class ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cristano -->
+        <test-method signature="test1()[pri:0, instance:Annotation.testscript@27ce24aa]" started-at="2023-05-25T18:37:01 IST" name="test1" finished-at="2023-05-25T18:37:01 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Main Test Script 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="cristanoo()[pri:0, instance:Annotation.testscript@27ce24aa]" started-at="2023-05-25T18:37:01 IST" name="cristanoo" finished-at="2023-05-25T18:37:01 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cristanoo -->
+        <test-method is-config="true" signature="viratt()[pri:0, instance:Annotation.testscript@27ce24aa]" started-at="2023-05-25T18:37:01 IST" name="viratt" finished-at="2023-05-25T18:37:01 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viratt -->
+      </class> <!-- Annotation.testscript -->
+      <class name="Annotation.testscript2">
+        <test-method is-config="true" signature="cristano()[pri:0, instance:Annotation.testscript2@35ef1869]" started-at="2023-05-25T18:37:01 IST" name="cristano" finished-at="2023-05-25T18:37:01 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before class ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cristano -->
+        <test-method signature="test2()[pri:0, instance:Annotation.testscript2@35ef1869]" started-at="2023-05-25T18:37:01 IST" name="test2" finished-at="2023-05-25T18:37:01 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Main Test Script 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="cristanoo()[pri:0, instance:Annotation.testscript2@35ef1869]" started-at="2023-05-25T18:37:01 IST" name="cristanoo" finished-at="2023-05-25T18:37:01 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cristanoo -->
+      </class> <!-- Annotation.testscript2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
